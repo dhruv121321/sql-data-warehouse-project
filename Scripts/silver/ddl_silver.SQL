@@ -1,3 +1,12 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+PURPOSE of this script is to create tables in the silver schema
+if there are already existing tables then this script will drop them and
+re-create them.
+reun it carefully if you dont want to lose your data
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
 IF OBJECT_ID ('silver.crm_cust_info','U') IS NOT NULL 
  DROP TABLE silver.crm_cust_info;
 GO
