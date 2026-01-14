@@ -110,7 +110,7 @@ The SQL scripts in the Silver layer handle specific data quality issues:
 * **Deduplication:** Logic implemented to ensure unique primary keys.
 * **Normalization:**
     * *Gender:* Standardized (e.g., 'M' -> 'Male', 'F' -> 'Female' or 'Unknown').
-    * *Marital Status:* Standardized (e.g., 'Married' -> 'M', 'Single' -> 'S').
+    * *Marital Status:* Standardized (e.g., 'M' -> 'Married', ''S' -> Single' ).
 * **Null Handling:** Default values applied where critical attributes were missing.
 * **Handled Dates:** handled incorrect dates and corrected data type.
 
