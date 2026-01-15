@@ -115,6 +115,26 @@ The SQL scripts in the Silver layer handle specific data quality issues:
 * **Handled Dates:** handled incorrect dates and corrected data type.
 
 ---
+---
+## 📈 Data Analysis & Reporting
+After building the Gold layer, I performed comprehensive data analysis using SQL to validate the warehouse and generate business insights. This process was divided into Exploratory Data Analysis (EDA) and Advanced Analytics.
 
+### 1. Exploratory Data Analysis (EDA)
+Before jumping into complex reporting, I conducted EDA to understand the dataset's structure and health:
+* **Database Exploration:** verified table structures, row counts, and schema integrity.
+* **Dimensions Exploration:** Analyzed distinct values in dimension tables (`dim_customers`, `dim_products`) to ensure data consistency.
+* **Date Exploration:** Validated the date ranges and temporal distribution of sales data.
+* **Measures Exploration:** Calculated "Big Numbers" (Total Revenue, Total Orders) to establish baseline metrics.
+* **Magnitude & Ranking:** Identified Top N and Bottom N performers (e.g., top customers, best-selling products) to spot outliers and key drivers.
+
+### 2. Advanced Analytics
+I used complex SQL queries to derive actionable business intelligence:
+* **Change-Over-Time Analysis:** Analyzed sales trends year-over-year and month-over-month to identify seasonality.
+* **Cumulative Analysis:** Calculated running totals and moving averages to visualize growth trajectories.
+* **Performance Analysis:** Compared actual sales against historical benchmarks.
+* **Part-to-Whole Analysis:** calculated the proportional contribution of different product categories to the total revenue.
+* **Data Segmentation:** Segmented customers and products to understand different market groups.
+* **Report Generation:** Created final summary views summarizing key business KPIs.
+---
 ## 📬 Contact & Feedback
 If you have any questions or suggestions regarding this Data Warehouse implementation, please feel free to reach out or open an issue in the repository.
