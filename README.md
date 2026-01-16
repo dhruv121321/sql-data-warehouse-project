@@ -9,6 +9,8 @@ The solution ensures data quality through rigorous naming conventions, data stan
 
 ## 🏗️ Architecture & Data Flow
 The project follows a multi-layer architecture to ensure data integrity and traceability.
+<img width="1024" height="506" alt="image" src="https://github.com/user-attachments/assets/40245d4d-13b7-48a9-8558-490a16f62942" />
+
 
 ### 1. Bronze Layer (Raw Data)
 * **Object Type:** Tables
@@ -40,8 +42,7 @@ The project follows a multi-layer architecture to ensure data integrity and trac
     * Joins dimensions (`dim`) and facts (`fact`).
 
 ---
-<img width="940" height="470" alt="image" src="https://github.com/user-attachments/assets/273761eb-c22c-4f5f-9c3f-d05dd63b10aa" />
----
+
 
 ## 🛠️ Technical Standards & Naming Conventions
 
