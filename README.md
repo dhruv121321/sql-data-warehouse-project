@@ -40,6 +40,8 @@ The project follows a multi-layer architecture to ensure data integrity and trac
     * Joins dimensions (`dim`) and facts (`fact`).
 
 ---
+<img width="940" height="470" alt="image" src="https://github.com/user-attachments/assets/273761eb-c22c-4f5f-9c3f-d05dd63b10aa" />
+---
 
 ## 🛠️ Technical Standards & Naming Conventions
 
